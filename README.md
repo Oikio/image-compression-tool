@@ -11,9 +11,9 @@ Download this repository as a ZIP by pressing on `<> Code` button and uncompress
 
 Open terminal.
 
-Go to the project folder with this command:
+Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and fodfolderler is called `image-compression-tool-main`**:
 
-    cd ~/Desktop/image-compression-tool # example if you uncompressed it on Desktop
+    cd ~/Desktop/image-compression-tool-main
 
 Install packages with this command:
 
@@ -27,9 +27,9 @@ Start dry run with this command, it will create `in` and `out` folders:
 
 Open terminal.
 
-Go to the project folder with this command:
+Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and fodfolderler is called `image-compression-tool-main`**:
 
-    cd ~/Desktop/image-compression-tool # example if you uncompressed it on Desktop
+    cd ~/Desktop/image-compression-tool-main
 
 Put PNGs and SVGs you would like to compress into the `in` folder.
 
@@ -41,13 +41,16 @@ Compressed PNG files will be in the `out` folder, if it's not first tool run, im
 
 ## Providing arguments
 
-    npm start QUALITY WIDTH HEIGHT
+Command signature looks like this, so you can provide 3 optional arguments:
 
-    # example
-    npm start # equals to: npm start 100
-    npm start 80 # custom quality
-    npm start 80 1920 1080 # custom size for output images
+    npm start [QUALITY] [WIDTH] [HEIGHT]
 
-`QUALITY` is a number between 0 and 100, where 100 is max quality and should be almost one to one with the original image. If size of the image is too big after compression run it again with lower quality. Suggestion is to decrement it by 10 (100, 90, 80). Quality below 60 might become to look ugly.
+Here are examples for commands:
 
-`WIDTH` and `HEIGHT` are numbers that will be used to resize the image. Omit it if resizing is not necessary (e.g. just compressing PNGs). If you process SVGs tool will try to create PNG of a size of SVG viewbox or width/height. If it fails - you can provide width and height manually.
+    npm start
+    npm start 80
+    npm start 100 1920 1080
+
+`[QUALITY]` is a number between 0 and 100, where 100 is max quality and should be almost one to one with the original image. If size of the image is too big after compression run it again with lower quality. Suggestion is to decrement it by 10 (100, 90, 80). Quality below 60 might become to look ugly.
+
+`[WIDTH]` and `[HEIGHT]` are numbers that will be used to resize the image. Omit it if resizing is not necessary (e.g. just compressing PNGs). If you process SVGs tool will try to create PNG of a size of SVG viewbox or width/height. If it fails - you can provide width and height manually.
