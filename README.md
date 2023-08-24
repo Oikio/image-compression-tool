@@ -11,7 +11,7 @@ Download this repository as a ZIP by pressing on `<> Code` button and uncompress
 
 Open terminal.
 
-Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and fodfolderler is called `image-compression-tool-main`**:
+Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and folder is called `image-compression-tool-main`**:
 
     cd ~/Desktop/image-compression-tool-main
 
@@ -27,7 +27,7 @@ Start dry run with this command, it will create `in` and `out` folders:
 
 Open terminal.
 
-Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and fodfolderler is called `image-compression-tool-main`**:
+Go to the project folder with this command, **it suggests that you uncompressed the repository on your Desktop and folder is called `image-compression-tool-main`**:
 
     cd ~/Desktop/image-compression-tool-main
 
