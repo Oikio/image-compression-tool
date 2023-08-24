@@ -6,6 +6,9 @@ Uses PNGquant algorithm to compress PNGs without noticeable visual quality loss.
 
 Install LTS version of NodeJS from https://nodejs.org/en.
 
+Download this repository as a ZIP by pressing on `<> Code` button and uncompress it on your Desktop:
+![Alt text](image.png)
+
 Open terminal.
 
 Go to the project folder with this command:
